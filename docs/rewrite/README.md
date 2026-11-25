@@ -13,6 +13,7 @@ the code, **the code wins** and the difference is noted.
 | [05-untapped-capabilities.md](05-untapped-capabilities.md) | What the API/protocol supports but the app doesn't expose: hidden commands, unused status fields, unused BLE opcodes, buildable features, hard limits |
 | [06-stock-app-findings.md](06-stock-app-findings.md) | Static RE of the stock Zeekr overseas app v3.1.2: ~130 endpoints, ~95 remote commands, ~70 capability codes, the full digital-key surface, and what's NEW vs OpenZeekr |
 | [07-recovering-wire-formats.md](07-recovering-wire-formats.md) | How to recover the exact command bodies, endpoint schemas and BLE opcode bytes doc 06 couldn't get statically: jadx, Frida cloud capture, BLE/HCI capture |
+| [08-stock-app-config-and-native.md](08-stock-app-config-and-native.md) | Stock app's authoritative region/host table (all 8 regions + brands), config assets, and native-lib map (signing, digital-key, white-box SDKs); corrects OpenZeekr's non-EU hosts |
 
 ---
 
